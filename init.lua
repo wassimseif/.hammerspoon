@@ -1,9 +1,9 @@
 local caffeine = hs.menubar.new()
 function setCaffeineDisplay(state)
     if state then
-        caffeine:setTitle("AWAKE")
+        caffeine:setTitle("A")
     else
-        caffeine:setTitle("SLEEPY")
+        caffeine:setTitle("S")
     end
 end
 
@@ -23,7 +23,7 @@ end
 -- Set up
 -----------------------------------------------
 
-local hyper = { "cmd", "alt", "ctrl"}
+local hyper = { "cmd", "ctrl"}
 
 -----------------------------------------------
 -- hyper d for left one half window
